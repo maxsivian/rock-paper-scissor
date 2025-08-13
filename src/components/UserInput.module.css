@@ -1,0 +1,77 @@
+.container {
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin: auto;
+
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  --player-size: 70px;
+
+  /* @media screen and (max-width: 1300px) {
+    --player-size: 100px;
+  }
+
+  @media screen and (max-width: 600px) {
+    --player-size: 50px;
+  } */
+}
+
+.rockContainer,
+.paperContainer,
+.scissorContainer {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: none;
+  /* background-color: aquamarine; */
+  color: white;
+
+  background-color: var(--color6);
+  backdrop-filter: blur(4px);
+  background-image: linear-gradient(135deg, #1d306388, #7917293f);
+
+
+  /* box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.507);   */
+  /* border: 0px solid var(--color3);  */
+  transition: box-shadow 0.3s, transform 0.3s, border 0.1s;   
+} 
+ 
+.rockContainer:hover,
+.paperContainer:hover, 
+.scissorContainer:hover { 
+  /* box-shadow: 0px 0px 10px 0px var(--color3);    */
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.51);   
+  transform: scale(1.05);  
+  border: 1px solid var(--color3); 
+} 
+
+
+.rockContainer {
+}
+.paperContainer {
+}
+.scissorContainer {
+}
+
+.scissorIconContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rockLottie {
+  transform: scale(1.1);
+  /* position: relative; */
+  /* bottom: 5px; */
+}
+.paperLottie {
+}
+.scissorLottie {
+  transform: scale(1.1);
+  position: relative;
+  bottom: 5px;
+}

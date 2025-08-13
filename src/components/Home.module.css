@@ -1,0 +1,38 @@
+.container {
+  /* border: 1px solid red; */
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* margin-top: 20px; */
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-height: 680px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-height: 680px) and (max-width: 660px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}

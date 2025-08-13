@@ -1,0 +1,35 @@
+.container {
+  /* border: 1px solid red; */
+  background-color: var(--color6);
+  backdrop-filter: blur(3px);
+  /* background-image: linear-gradient(120deg, #1d306388, #7917293f); */
+
+  width: fit-content;
+  width: 270px;
+  margin: auto; 
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container > h2{
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.user{
+  color: var(--color3);
+}
+.computer{
+  color: var(--color2);
+}

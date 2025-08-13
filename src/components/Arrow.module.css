@@ -1,0 +1,90 @@
+.container {
+  /* border: 1px solid red; */
+  width: fit-content;
+  font-size: 2rem;
+}
+
+
+.animate {
+  opacity: 1;
+  animation-name: MyAnimate;
+  animation-duration: 0.9s;
+  /* animation-delay: 0s; */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.arrow1 {
+  animation-delay: 0.1s;
+}
+.arrow2 {
+  animation-delay: 0.2s;
+}
+.arrow3 {
+  animation-delay: 0.3s;
+}
+.arrow4 {
+  animation-delay: 0.4s;
+}
+.arrow5 {
+  animation-delay: 0.5s;
+}
+.arrow6 {
+  animation-delay: 0.6s;
+}
+
+.r_arrow1 {
+  animation-delay: 0.6s;
+}
+.r_arrow2 {
+  animation-delay: 0.5s;
+}
+.r_arrow3 {
+  animation-delay: 0.4s;
+}
+.r_arrow4 {
+  animation-delay: 0.3s;
+}
+.r_arrow5 {
+  animation-delay: 0.2s;
+}
+.r_arrow6 {
+  animation-delay: 0.1s;
+}
+
+.b_arrow1 {
+  animation-delay: 0.1s;
+}
+.b_arrow2 {
+  animation-delay: 0.2s;
+}
+.b_arrow3 {
+  animation-delay: 0.3s;
+}
+.b_arrow4 {
+  animation-delay: 0.3s;
+}
+.b_arrow5 {
+  animation-delay: 0.2s;
+}
+.b_arrow6 {
+  animation-delay: 0.1s;
+}
+
+.color1 {
+  color: var(--color3);
+  text-shadow: 0px 0px 20px var(--color3);
+}
+.color2 {
+  color: var(--color2);
+  text-shadow: 0px 0px 50px var(--color2);
+}
+
+@keyframes MyAnimate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

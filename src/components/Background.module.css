@@ -1,0 +1,25 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1000;
+    pointer-events: none;
+
+    object-position: center;
+    object-fit: cover;
+}
+ 
+.linearGradient{
+    background-image: linear-gradient(90deg, #0e172d,#350b12);
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    z-index: -2000;
+    top: 0;
+    left: 0;
+}

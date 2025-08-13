@@ -1,0 +1,22 @@
+.loading{
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: auto;
+}
+
+.layout{
+    /* border: 1px solid greenyellow; */
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.outlet{
+    /* border: 1px solid darkcyan; */
+    flex-grow: 1;
+}
+
+.loadingBar{
+    /* border: 1px solid red; */
+}
