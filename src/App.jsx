@@ -1,6 +1,12 @@
 import styles from "./App.module.css"
 import { lazy, Suspense } from 'react'
-import { createBrowserRouter, Navigate, Outlet, RouterProvider } from 'react-router-dom'
+import {
+  createBrowserRouter,
+  createHashRouter,
+  Navigate,
+  Outlet,
+  RouterProvider
+} from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 import Background from "./components/Background"
@@ -26,7 +32,7 @@ function Layout() {
 }
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
@@ -53,9 +59,9 @@ function App() {
         }
       ]
     }
-  ], 
-  { basename: "/rock-paper-scissor/" }
-)
+  ],
+    // { basename: "/rock-paper-scissor/" }
+  )
 
 
   return (

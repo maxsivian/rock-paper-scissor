@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@lordicon/react": "^1.11.0",
@@ -32,5 +33,5 @@
     "globals": "^16.0.0",
     "vite": "^6.3.5"
   },
-   "homepage": "/rock-paper-scissor/"
+  "homepage": "/rock-paper-scissor/"
 }
